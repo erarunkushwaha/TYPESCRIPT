@@ -1,0 +1,16 @@
+# dependencies
+/MAPS/node_modules
+
+
+# production
+# /build
+
+/MAPS/npm-debug.log*
+/MAPS/yarn-debug.log*
+/MAPS/yarn-error.log*
+
+/MAPS/.env
+
+/MAPS/yarn.lock
+/MAPS/package-lock.json
+/MAPS/.cache
