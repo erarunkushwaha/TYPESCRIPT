@@ -49,3 +49,7 @@ const logWeather = ({
   console.log(date, weather);
 };
 //  logWeather(todayWeather)
+const doSomething = () => {
+  console.log("hi there i am hrer");
+};
+doSomething();

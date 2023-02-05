@@ -1,5 +1,6 @@
 # dependencies
 /MAPS/node_modules
+/SHORTING/node_modules
 
 
 # production
@@ -13,4 +14,5 @@
 
 /MAPS/yarn.lock
 /MAPS/package-lock.json
+/SHORTING/package-lock.json
 /MAPS/.cache
