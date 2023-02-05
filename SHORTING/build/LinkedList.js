@@ -1,14 +1,16 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.LinkedList = void 0;
+const BubbleShort_1 = require("./BubbleShort");
 class Node {
     constructor(data) {
         this.data = data;
         this.next = null;
     }
 }
-class LinkedList {
+class LinkedList extends BubbleShort_1.BubbleShort {
     constructor() {
+        super(...arguments);
         this.head = null;
     }
     add(data) {

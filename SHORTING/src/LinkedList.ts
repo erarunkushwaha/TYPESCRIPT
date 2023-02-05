@@ -1,10 +1,12 @@
+import { BubbleShort } from "./BubbleShort";
+
 class Node {
   next: Node | null = null;
 
   constructor(public data: number) {}
 }
 
-export class LinkedList {
+export class LinkedList extends BubbleShort {
   head: Node | null = null;
 
   add(data: number): void {

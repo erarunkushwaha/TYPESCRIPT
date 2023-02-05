@@ -1,5 +1,9 @@
-export class NumberCollection {
-  constructor(public data: number[]) {}
+import { BubbleShort } from "./BubbleShort";
+
+export class NumberCollection extends BubbleShort {
+  constructor(public data: number[]) {
+    super();
+  }
 
   get length(): number {
     return this.data.length;
